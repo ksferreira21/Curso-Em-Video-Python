@@ -9,4 +9,4 @@ print(f"{'Jeito simples':=^60}")
 n1 = int(input('Digite um número: '))
 print(f'O dobro de {n1} vale {n1*2} \nO triplo de {n1} vale {n1*3} \nA raiz quadrada de {n1} é igual a {n1**(1/2):.2f}')
 #Projeto para calcular o dobro, triplo e raiz quadrada de um número
-#Desenvolvido por: Kaiky Soares Ferreira
+#Desenvolvido por: Kaiky 2025

@@ -13,4 +13,4 @@ print(f'''\033[34m{n} x 1 = \033[93m{n*1:02}\033[m
 \033[34m{n} x 10 = \033[93m{n*10}\033[m''')
 print('-'*20)
 # Projeto para ajudar pessoas com tabuada
-#Desenvolvido por: Kaiky Soares Ferreira
+#Desenvolvido por: Kaiky 2025

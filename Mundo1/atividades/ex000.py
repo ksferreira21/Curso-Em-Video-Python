@@ -13,3 +13,4 @@ A divisão é {d:.2f}
 A divisão inteira é {di}
 A potência é {e:.3e}
 O resto da divisão é {r}\033[m''')
+# Desenvolvido por Kaiky 2025

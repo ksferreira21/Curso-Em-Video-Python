@@ -9,4 +9,4 @@ print(f'Está em minúsculas? {n.islower()}')
 print(f'Está capitalizada? {n.istitle()}')
 # A função input() lê o que o usuário digita.
 # Descobrir o tipo primitivo do valor digitado.
-# Desenvolvido por: Kaiky Soares Ferreira
+# Desenvolvido por: Kaiky 2025

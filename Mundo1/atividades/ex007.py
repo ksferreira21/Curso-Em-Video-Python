@@ -6,4 +6,4 @@ if m < 4.8:
 else:
     print(f'Sua média foi {m} e foi exelente continue assim :)')
 #Media aritmética de duas notas de um aluno.
-#Desenvolvido por: Kaiky Soares Ferreira
+#Desenvolvido por: Kaiky 2025

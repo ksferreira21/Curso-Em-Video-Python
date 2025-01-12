@@ -4,4 +4,4 @@ soma = n1 + n2
 print(f'A soma entre {n1} e {n2} é igual a {soma}.')
 # A função print() exibe o resultado na tela.
 # Projeto para somar dois números
-# Desenvolvido por: Kaiky Soares Ferreira
+# Desenvolvido por: Kaiky 2025

@@ -6,3 +6,4 @@ def main():
     print(f'O total a pagar é de R${total:.2f}')
 if __name__ == '__main__':
     main()
+# Desenvolvido por Kaiky 2025
