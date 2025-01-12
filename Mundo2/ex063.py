@@ -1,1 +1,0 @@
-# This file is a placeholder for the 63rd exercise. It may contain functions or classes related to the exercise topic.
