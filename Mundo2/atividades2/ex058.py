@@ -1,3 +1,4 @@
+# Jogo de advinhação V2.0.0
 from random import randint
 from time import sleep
 import pygame
@@ -22,15 +23,17 @@ def victory():
 
 def escolher_dificuldade():
     while True:
-        dificuldade = str(input('\033[1;35mDigite a dificuldade (F/N/D/S):\033[m ').upper().strip()[0])
+        dificuldade = str(input('\033[1;35mDigite a dificuldade (F/N/D/?):\033[m ').upper().strip()[0])
         if dificuldade == 'F':
-            return 'Fácil', randint(1, 10)
+            return '\033[1;92mFácil\033[m', randint(1, 10)
         elif dificuldade == 'N':
-            return 'Normal', randint(1, 1000)
+            return '\033[1mNormal\033[m', randint(1, 1000)
         elif dificuldade == 'D':
-            return 'Difícil', randint(1, 10000)
+            return '\033[1;91mDifícil\033[m', randint(1, 10000)
         elif dificuldade == 'S':
-            return 'Secreta', randint(1, 1000000)
+            return '\033[1;30mSecreta\033[m', randint(1, 1000000)
+        elif dificuldade == '?':
+            print('A dica é: Sou algo que poucos sabem, mas muitos querem descobrir. Quem sou eu?"')
         else:
             print('Entrada inválida! Tente novamente.')
 
@@ -41,7 +44,7 @@ sleep(2)
 
 dificuldade, cpu = escolher_dificuldade()
 
-print(f'Dificuldade selecionada: \033[1;32m{dificuldade}\033[m')
+print(f'Dificuldade selecionada: {dificuldade}')
 
 print('\033[36mIrei pensar em número de acordo com a dificuldade...\033[m')
 pensando()
@@ -65,3 +68,4 @@ while player != cpu:
 
 victory()
 print(f'Você venceu em {tentativas} tentativas! O número escolhido era \033[33m{cpu}\033[m')
+# Desenvolvido por Kaiky 2025

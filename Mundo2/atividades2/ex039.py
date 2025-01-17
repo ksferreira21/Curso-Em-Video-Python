@@ -1,3 +1,4 @@
+# Programa que diz se você tem idade para se alistar, ou se está atrasada.
 from datetime import date
 from colorama import Fore, Style, init
 
@@ -19,6 +20,7 @@ try:
         else:
             tempo_faltando = 18 - idade
             print(Fore.BLUE + f'Você ainda vai ter que se alistar, pois falta {tempo_faltando} ano{"" if tempo_faltando == 1 else "s"} para completar 18 anos.' + Style.RESET_ALL)
+            
 except ValueError:
     print(Fore.RED + 'Por favor, insira um ano válido.' + Style.RESET_ALL)
 

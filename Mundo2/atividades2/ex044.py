@@ -1,5 +1,7 @@
+# Programa com opções de pagamento, com diversos descontos e juros de acordo com sua escolha.
 try:
     preco = float(input('Qual o valor do produto? R$').strip())
+
     if 0 >= preco:
         print('\033[1;31mEntrada Inválida\033[m')
     else:
@@ -26,9 +28,11 @@ try:
         else:
             parcelas = 3
             preco_parcelas = (preco + (preco * 0.2)) / 3
+
         print(f'O valor do produto de R${preco:.2f}, parcelado em {parcelas}x {'recebeu juros de 20% com isso tem como valor: ' if resposta > 3 else "tem como valor: "}R${preco_parcelas:.2f}')
     else:
         print('\033[1;31mEntrada Inválida\033[m')
+
 except Exception as e:
     print('\033[1;35mInsira o valor corretamente.\033[m')
 # Desenvolvido por Kaiky 2025

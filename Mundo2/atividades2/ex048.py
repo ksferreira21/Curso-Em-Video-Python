@@ -2,6 +2,7 @@
 soma = 0
 contador = 0
 fim = int(input('Digite um número inteiro para definir o final da sequência (de 1 até o número escolhido): ').strip())
+
 for i in range(1, fim, 2):
     if i % 3 == 0:
         contador += 1
