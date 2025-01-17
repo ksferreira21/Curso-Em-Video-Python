@@ -1,3 +1,4 @@
+# Programa que diz se o número é maior, menor, ou igual ao o outro número. 
 try:    
     n1 = int(input('Digite um número: ').strip())
     n2 = int(input('Digite um número: ').strip())

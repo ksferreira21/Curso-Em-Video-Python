@@ -1,3 +1,4 @@
+# Pedra Papel e Tesoura V1.0.0!
 from random import choice
 from time import sleep
 try:
