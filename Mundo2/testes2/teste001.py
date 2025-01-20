@@ -6,4 +6,4 @@ for i in range(3):
     s += n
 
 print(f'O somatório entre os número foi de: {s}')
-# Desenvolvido por Kaiky 2025
+# Testado por Kaiky 2025!

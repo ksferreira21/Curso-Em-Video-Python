@@ -7,3 +7,4 @@ while True:
     cont += 1
     s += n
 print(f'Foram {cont} número e sua soma é {s}')
+# Testado por Kaiky 2025!

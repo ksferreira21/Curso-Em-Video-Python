@@ -29,3 +29,4 @@ while n != 0:
         else:
             impar += 1
 print(f'Você digitou {par} números pares e {impar} números ímpares!')
+# Testado por Kaiky 2025!
