@@ -15,3 +15,4 @@ for produtos in range(0, len(lista)):
     else:
         print(f'R${lista[produtos]:>6.2f}')
 print('--' * 19)
+# Desenvolvido por Kaiky 2025
