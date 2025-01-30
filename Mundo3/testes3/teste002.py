@@ -32,3 +32,5 @@ else:
 
 print(num)
 print(f'Essa lista tem {len(num)} elementos')'''
+
+# Testado por Kaiky - 2025

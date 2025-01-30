@@ -49,5 +49,6 @@ for c in range(0, len(lanches)):
 print()
 
 for pos, comi in enumerate(lanches):
-    print(f'Eu vou pedir 1 {comi} na posição {pos}') '''   
+    print(f'Eu vou pedir 1 {comi} na posição {pos}') '''
+
 # Testado por Kaiky 2025!
