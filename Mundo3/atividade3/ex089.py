@@ -21,4 +21,4 @@ while True:
         if nota == pos:
             print(f'\nAs notas do(a) aluno(a) {dados[pos][0]} são:\nNOTA 1: {dados[pos][1]}\nNOTA 2: {dados[pos][2]}')
 
-print('EXECUÇÃO ENCERRADA!')    
+print('EXECUÇÃO ENCERRADA!')
