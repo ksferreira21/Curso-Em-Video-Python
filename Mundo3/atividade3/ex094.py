@@ -35,7 +35,7 @@ print(f'D) Lista de pessoas que estão acima da média: ')
 
 for p in tPesosas:
     if p['idade'] > media_de_idade:
-        print('    ')
+        print('     ')
         for k, v in p.items():
             print(f'{k} = {v}; ', end=' ')
 print()
