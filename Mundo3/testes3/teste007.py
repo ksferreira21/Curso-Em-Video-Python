@@ -58,3 +58,5 @@ def contador(i,f,p):
 
 contador(2,10,2)
 help(contador)'''
+
+# Testado por Kaiky - 2025
