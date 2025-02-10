@@ -1,3 +1,5 @@
+# Programa que cadastra uma pessoa, com uma interface amigável de terminal.
+
 from packet115.interface import text, interface
 from packet115.arquivo import *
 from time import sleep
@@ -30,3 +32,6 @@ while True:
         print('\033[1;31mError: Digite um número inteiro válido!\033[m')
         
     sleep(2)
+
+# Desenvolvido por Kaiky - 2025
+# Obrigado por esta jornada Gustavo Guanabara!
